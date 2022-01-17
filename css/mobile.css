@@ -48,3 +48,140 @@ header nav ul {
   width: 32px;
   filter: invert(100%);
 }
+
+header section {
+  background-image: url(../images/hero-image.jpg); /*je declare le baground image */
+  background-size: cover; /*je regle l'image pouir la voir entiere/*/
+  text-align: center;
+  color: var(--white);
+  padding: 50px 0;
+
+}
+
+header section h1 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  font-weight: normal;
+
+}
+
+header section p {
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+  font-weight: normal;
+
+}
+
+.btn-orange { /*je creer le bouton avec la classe indiqué*/
+  text-decoration: none; /*j'enleve la decoration ( ligne du dessous )*/
+  color: var(--white);/* je change la couleur*/
+  font-size: 1.2rem;/*je modifie la taille*/
+  background-color: var(--orange);/*je modifie la couleur de fond*/
+  padding: 15px 15px;/*je creer le marge*/
+  border-radius: 6px;/*j'arrondir le angles*/
+
+
+}
+
+.img-code { /*je deplace l'image code*/
+  display: block;/*je signale que ca devient un block*/
+  margin:auto;/*je signaler les marge en auto*/
+  padding-top: 50px;/*j'alligne le block creer avant*/
+
+}
+
+.bold { /*met en gras*/
+  font-weight: bold;
+}
+
+.uppercase {/*met en majuscule*/
+  text-transform: uppercase;
+}
+
+.orange {
+  color:var(--orange);
+}
+
+/**partie principale*/
+main {
+  text-align: center;
+  padding-top: 65px;
+}
+
+main  p {
+  font-size: 1.2rem;
+}
+
+main section:last-child {
+  background-color: var(--grey-opacity);
+  padding:80px 0;/*marge interieur*/
+  margin-top: 65px;/*marge exterieur*/
+}
+
+main section h2 {
+  color: var(--orange);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.separator {
+  border: 1px solid var(--orange);/*faire un trait*/
+  width: 130px;/*longeur du trait*/
+  margin: 20px auto;/*centrer le trait*/
+}
+
+/*
+**Cards
+*/
+
+.cards .circle {
+  width: 100px;/*je fais un carré*/
+  height: 100px;
+
+  background-color: var(--black);/*je donne une couleur au cercle*/
+  border-radius: 50px;/*j'arrondi le carré fait au dessus*/
+  margin: 60px auto auto auto;/*centrage de marge au milieu*/
+  display: flex; /*lancer desplay box pour aligner le contenu des cercle*/
+  align-items: center;/* align seulement avec display flex*/
+  justify-content: center;
+}
+
+.cards .circle img {
+  filter:invert(100%);/*j'inverse la couleur des logo*/
+  width: 65px;/*regler la grosseur des icons*/
+}
+
+.cards h3 {
+  font-size: 1.3rem;
+  color: var(--orange); /*colorer le texte*/
+  text-transform: uppercase;/*mettre le texte en majuscule*/
+  margin: 15px;
+
+}
+
+.btn-light {
+  text-decoration:none;
+  color: var(--orange);
+  background-color: var(--white);
+  padding: 8px 12px;/*creation du boutton avec les bordure + en dessous la largeur du trait*/
+  border: 1px solid var(--grey-opacity);/*creation du boutton avec les bordure + en dessous la largeur du trait*/
+  border-radius: 4px;/*arrondir les angles*/
+
+}
+
+.cards p {
+  margin-bottom: 20px;
+}
+
+/*
+** Footer
+*/
+footer {
+  background-color: var(--orange);
+  padding: 150px 0 30px 0;/*marge haut , droite ; bas , gauche*/
+}
+footer img {
+  width: 80%;/*donne une taille relative a l'image selon la largeur de l'ecran */
+}
+
