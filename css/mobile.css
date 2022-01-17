@@ -6,8 +6,14 @@
   font-family: 'Arvo', serif;
   font-size: 16px;
   margin: 0;
-
 }
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+
 
 /*variable couleur*/
 :root {
@@ -16,4 +22,29 @@
   --orange: #ff6347;
   --grey: #797878;
   --grey-opacity: #d9d7d7;  
+}
+
+/*** Barre de navigation*/
+
+header nav  {
+  background-color: var(--black);
+  padding: 10px 0;
+  
+}
+
+header nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Cache le menu pour ordinateur */
+header nav ul {
+  display: none;
+}
+
+.menu-icon {
+  width: 32px;
+  filter: invert(100%);
 }

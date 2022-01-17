@@ -10,3 +10,10 @@
   --grey-opacity: #d9d7d7;  
 }
 
+/**l'etoile permet de designer tout les element HTML (div, p, ul, li, etc...*/
+*{
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+  margin: 0;
+
+}
