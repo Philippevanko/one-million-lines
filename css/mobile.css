@@ -185,3 +185,39 @@ footer img {
   width: 80%;/*donne une taille relative a l'image selon la largeur de l'ecran */
 }
 
+
+/*ordinateur*//*attention on commence a coder les version mobile puis tablette puis ordinateur */
+
+@media (min-width: 1200px) {/*on peut ajouter screen apres @media pour precise que c'est un ecran*/
+  .menu-mobile {
+    display: none;/*cache l"élément*/
+  }
+
+  .menu-dsktop{
+    display:block;
+  }
+
+  .container {
+    width: 70%;
+  }
+
+  header section h1 {
+    font-size: 3rem;
+    width: 60%;/*quan on fait un width le text align ne fonctionne plus */
+    margin: auto auto 50px auto;
+
+  } 
+
+  .cards {
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+  }
+
+  footer img {
+    width: auto;
+  }
+  
+
+}
